@@ -19,3 +19,21 @@ const relogio = setInterval(function time() {
     segundos.textContent = s;
 
 })
+
+// const horas = document.getElementById('horas');
+// const minutos = document.getElementById('minutos');
+// const segundos = document.getElementById('segundos');
+
+// function atualizarRelogio() {
+//     const dateToday = new Date();
+//     const hr = dateToday.getHours().toString().padStart(2, '0');
+//     const min = dateToday.getMinutes().toString().padStart(2, '0');
+//     const s = dateToday.getSeconds().toString().padStart(2, '0');
+
+//     horas.textContent = hr;
+//     minutos.textContent = min;
+//     segundos.textContent = s;
+// }
+
+// setInterval(atualizarRelogio, 1000);
+// atualizarRelogio();
